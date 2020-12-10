@@ -96,7 +96,7 @@ int main() {
 	cout << endl;
 	break;
       }
-      else {
+      else if (current->getLchild() != NULL && current->getRchild() != NULL) {
 	int w = current->getLchild()->getValue();
 	if (w = 1000) {
 	  cout << "    ";
